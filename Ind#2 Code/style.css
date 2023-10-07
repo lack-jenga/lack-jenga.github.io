@@ -1,0 +1,65 @@
+@media screen and (max-width: 576px){
+    .column1, .column2{
+    width: 98%;
+    float: left;
+    margin-bottom: 1em;
+    }
+    }
+
+.column1 {
+    float: left;
+    width: 25%;
+    box-sizing:border-box;
+    margin-left: 4rem;
+    margin-right: 2rem;
+  }
+.column2 {
+    float: none;
+    width: 25%;
+    box-sizing: border-box;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+
+}
+
+body{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+div{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 50%;
+    margin:auto;
+
+}
+
+nav, footer{
+    margin-top: 10rem;
+    padding-top: 1.3rem;
+    background-color: green;
+    width: 50%;
+    margin:auto;
+    color: white;
+
+}
+nav h1{
+    padding-left: 2.4rem;
+    display: block;
+ 
+
+    font-family: 'Shadows Into Light', cursive;
+}
+#navbar, td{
+    border: black;
+    margin: auto;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+
+
